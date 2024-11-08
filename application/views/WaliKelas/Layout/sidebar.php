@@ -5,8 +5,8 @@
 			<div class="sidebar-logo">
 				<!-- Logo Header -->
 				<div class="logo-header" data-background-color="dark">
-					<a href="index.html" class="logo">
-						<img src="<?= base_url('asset/template/') ?>assets/img/kaiadmin/logo_light.svg" alt="navbar brand" class="navbar-brand" height="20" />
+					<a href="index.html" class="logo text-light">
+						SD NEGERI BENDA
 					</a>
 					<div class="nav-toggle">
 						<button class="btn btn-toggle toggle-sidebar">
@@ -86,7 +86,7 @@
 							<li class="nav-item topbar-user dropdown hidden-caret">
 								<a class="dropdown-toggle profile-pic" data-bs-toggle="dropdown" href="#" aria-expanded="false">
 									<div class="avatar-sm">
-										<img src="<?= base_url('asset/template/') ?>assets/img/profile.jpg" alt="..." class="avatar-img rounded-circle" />
+										<img src="<?= base_url('asset/logo.png') ?>" alt="..." class="avatar-img rounded-circle" />
 									</div>
 									<span class="profile-username">
 										<span class="op-7">Hi,</span>

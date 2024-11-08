@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 08 Nov 2024 pada 03.34
+-- Waktu pembuatan: 08 Nov 2024 pada 14.17
 -- Versi server: 10.4.6-MariaDB
 -- Versi PHP: 7.3.9
 
@@ -235,7 +235,31 @@ CREATE TABLE `kriteria` (
 --
 
 INSERT INTO `kriteria` (`id_kriteria`, `nama_kriteria`, `sub_kriteria`, `bobot`) VALUES
-(1, 'Nilai Keterampilan', 'Bagus', 4);
+(1, 'Nilai Pengetahuan', 'Tidak Baik', 10),
+(2, 'Nilai Pengetahuan', 'Kurang Baik', 40),
+(3, 'Nilai Pengetahuan', 'Baik', 60),
+(4, 'Nilai Pengetahuan', 'Cukup Baik', 80),
+(5, 'Nilai Pengetahuan', 'Sangat Baik', 100),
+(6, 'Nilai Keterampilan', 'Tidak Baik', 10),
+(7, 'Nilai Keterampilan', 'Kurang Baik', 40),
+(8, 'Nilai Keterampilan', 'Baik', 60),
+(9, 'Nilai Keterampilan', 'Cukup Baik', 80),
+(10, 'Nilai Keterampilan', 'Sangat Baik', 100),
+(11, 'Prestasi Kehadiran', 'Tidak Baik', 10),
+(12, 'Prestasi Kehadiran', 'Kurang Baik', 40),
+(13, 'Prestasi Kehadiran', 'Baik', 60),
+(14, 'Prestasi Kehadiran', 'Cukup Baik', 80),
+(15, 'Prestasi Kehadiran', 'Sangat Baik', 100),
+(16, 'Perilaku', 'Tidak Baik', 10),
+(17, 'Perilaku', 'Kurang Baik', 40),
+(18, 'Perilaku', 'Baik', 60),
+(19, 'Perilaku', 'Cukup Baik', 80),
+(20, 'Perilaku', 'Sangat Baik', 100),
+(21, 'Nilai Prestasi', 'Sekolah', 1),
+(22, 'Nilai Prestasi', 'Kecamatan', 2),
+(23, 'Nilai Prestasi', 'Kabupaten', 3),
+(24, 'Nilai Prestasi', 'Provinsi', 4),
+(25, 'Nilai Prestasi', 'Nasional', 5);
 
 -- --------------------------------------------------------
 
@@ -503,7 +527,7 @@ ALTER TABLE `analisis`
 -- AUTO_INCREMENT untuk tabel `kriteria`
 --
 ALTER TABLE `kriteria`
-  MODIFY `id_kriteria` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_kriteria` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 
 --
 -- AUTO_INCREMENT untuk tabel `siswa`
