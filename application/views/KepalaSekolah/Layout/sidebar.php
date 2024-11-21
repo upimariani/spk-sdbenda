@@ -90,7 +90,7 @@
 									</div>
 									<span class="profile-username">
 										<span class="op-7">Hi,</span>
-										<span class="fw-bold">Wali Kelas</span>
+										<span class="fw-bold">Kepala Sekolah</span>
 									</span>
 								</a>
 								<ul class="dropdown-menu dropdown-user animated fadeIn">

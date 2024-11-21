@@ -35,7 +35,7 @@
 						<div class="col-md-8">
 							<div class="mb-4">
 								<h3>Sign In to <strong>SD NEGERI BENDA</strong></h3>
-								<p class="mb-4">Silahkan melakukan login untuk melakukan transaksi.</p>
+								<p class="mb-4">Silahkan melakukan login.</p>
 							</div>
 							<?php
 							if ($this->session->userdata('success')) {
